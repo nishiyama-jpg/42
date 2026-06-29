@@ -29,11 +29,6 @@ void	ft_swap(int *a, int *b)
 	*b = tmp;
 }
 
-void	ft_div_mod(int a, int b, int *div, int *mod)
-{
-	*div = a / b;
-	*mod = a % b;
-}
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {
