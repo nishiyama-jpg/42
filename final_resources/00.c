@@ -17,16 +17,6 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_print_alphabet(void)
-{
-	char	c = 'a';
-
-	while (c <= 'z')
-	{
-		ft_putchar(c);
-		c++;
-	}
-}
 
 void	ft_print_reverse_alphabet(void)
 {
@@ -36,17 +26,6 @@ void	ft_print_reverse_alphabet(void)
 	{
 		ft_putchar(c);
 		c--;
-	}
-}
-
-void	ft_print_numbers(void)
-{
-	char	c = '0';
-
-	while (c <= '9')
-	{
-		ft_putchar(c);
-		c++;
 	}
 }
 
