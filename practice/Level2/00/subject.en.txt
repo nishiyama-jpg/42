@@ -1,0 +1,28 @@
+Assignment name  : expand_chars
+Expected files   : expand_chars.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string as argument and displays it, printing
+three spaces between every two consecutive non-space characters.
+
+Space characters from the input must not be displayed.
+
+If the number of arguments is not 1, the program displays only a newline.
+
+Examples:
+
+$> ./expand_chars "abc" | cat -e
+a   b   c$
+$> ./expand_chars "a b c" | cat -e
+a   b   c$
+$> ./expand_chars "   hello   world   " | cat -e
+h   e   l   l   o   w   o   r   l   d$
+$> ./expand_chars "" | cat -e
+$
+$> ./expand_chars "     " | cat -e
+$
+$> ./expand_chars "42 Abu Dhabi" | cat -e
+4   2   A   b   u   D   h   a   b   i$
+$> ./expand_chars | cat -e
+$
