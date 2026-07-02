@@ -1,0 +1,24 @@
+Assignment name  : occ_z
+Expected files   : occ_z.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a single string as an argument, and displays the
+number of uppercase 'Z' characters found in that string, followed by a newline.
+
+If the number of arguments is not 1, the program displays a newline.
+
+Examples:
+
+$> ./occ_z "ABZZCZ" | cat -e
+3$
+$> ./occ_z "hello world" | cat -e
+0$
+$> ./occ_z "ZZZZZZ" | cat -e
+6$
+$> ./occ_z "Zebra Zone" | cat -e
+2$
+$> ./occ_z | cat -e
+$
+$> ./occ_z "ABC" "DEF" | cat -e
+$
